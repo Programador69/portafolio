@@ -1,0 +1,150 @@
+body {
+	font-family: 'Amiri Quran', serif;
+	background-color: #24345b;
+/*	background-color: #101728;*/
+	color: #fff;
+	overflow-x: hidden;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.nav {
+	background: linear-gradient(to right,#9340FF, #FF3C5F);
+	height: 30px;
+	box-shadow: 1px 1px #fff;
+	position: sticky;
+	top: 0px;
+}
+
+.nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.nav ul li {
+	list-style: none;
+	font-size: 20px;
+}
+
+.contacto a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h2 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+main section {
+	padding: 20px;
+	font-size: 18px;
+}
+
+.presentacion {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.presentacion p {
+	line-height: 1.5;
+}
+
+.basicos, .intermedios, .avanzados {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.basicos a, .intermedios a, .avanzados a {
+	color: #fff;
+	text-decoration: none;
+	margin: 10px;
+	height: 25px;
+}
+
+.basicos a:hover {
+	border-radius: 8px;
+	background-color: #2def10;
+	color: #000;
+}
+
+.basicos > .basicos a:hover {
+	background-color: #555;
+}
+
+.intermedios a:hover {
+	border-radius: 8px;
+	background-color: #ffb020;
+	color: #000;
+}
+
+.avanzados a:hover {
+	border-radius: 8px;
+	background-color: #ff4040;
+	color: #000;
+}
+
+.basicos p, .intermedios p, .avanzados p {
+	width: 99vw;
+	height: 25px;
+}
+
+.basicos p {
+	background: linear-gradient(to right, transparent, #2def10);
+}
+
+.intermedios p {
+	background: linear-gradient(to right, transparent, #ffb020);
+}
+
+.avanzados p {
+	background: linear-gradient(to right, transparent, #ff4040);
+}
+
+.pie {
+	background-color: #eef;
+	color: #000;
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	width: 99vw;
+}
+
+.pie a {
+	color: #000;
+	line-height: 2;
+	margin: 2vw;
+}
+
+@media only screen and (min-width: 500px) {
+	.presentacion {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 99vw;
+		margin: auto;
+	}
+
+	.presentacion figure {
+		width: 40%;
+	}
+
+	.presentacion p {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.presentacion {
+		width: 70vw;
+	}
+}
