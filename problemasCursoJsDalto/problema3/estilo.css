@@ -1,0 +1,27 @@
+body {
+	background-color: #577;
+	color: #eee;
+	font-family: cursive;
+}
+
+h1 {
+	text-align: center;
+}
+
+.estudiantes {
+	width: 70vw;
+	height: 50vh;
+	color: #000;
+	background-color: #ddd;
+	margin: auto;
+}
+
+.estudiantes h3 {
+	padding: 20px;
+	margin: 15px;
+	line-height: 2;
+}
+
+.estudiantes p {
+	padding: 20px;
+}

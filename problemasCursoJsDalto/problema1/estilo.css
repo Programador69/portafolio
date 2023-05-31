@@ -1,0 +1,27 @@
+body {
+	background: #efefef;
+	font-family: monospace;
+}
+
+h1 {
+	text-align: center;
+	line-height: 2;
+}
+
+.resultados {
+	margin: auto;
+	width: 70vw;
+	height: 40vh;
+	text-align: left;
+	background: #ccc;
+}
+
+.resultados h3 {
+	margin: 0 0 30px 30px;
+	padding-top: 30px;
+}
+
+.res {
+	line-height: 1.5;
+	font-family: sans-serif;
+}

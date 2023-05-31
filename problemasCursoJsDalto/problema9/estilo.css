@@ -1,0 +1,20 @@
+body {
+	background-color: #9092;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.inscribir {
+	display: flex;
+	justify-content: space-around;
+	width: 60vw;
+	margin: auto;
+	padding: 50px;
+}
+
+.inscribir button {
+	background: transparent;
+}

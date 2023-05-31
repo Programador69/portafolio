@@ -1,0 +1,27 @@
+body {
+	background-color: #cee;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.botonMateria {
+	margin: 50px;
+	text-align: center;
+}
+
+.resultados {
+	display: flex;
+	flex-direction: column;
+	height: 120px;
+	justify-content: space-around;
+	width: 50vw;
+	margin: auto;
+	background-color: #fff;
+}
+
+.resultados h3, .resultados h4 {
+	margin-left: 20px;
+}
