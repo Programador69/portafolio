@@ -1,0 +1,20 @@
+h1 {
+	font-family: 'League Gothic', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	right: 50%;
+	bottom: 50%;
+	color: #DF3A1E;
+}
+
+body{
+	background-color: #3de;
+	outline: 30px solid #F8ED00;
+}
+
+.nones{
+	color: #000;
+}
