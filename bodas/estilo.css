@@ -1,0 +1,290 @@
+body {
+	font-family: 'Electrolize', sans-serif;
+}
+
+header {
+	background-color: #0a4239;
+	height: 60px;
+	position: sticky;
+	top: 0;
+}
+
+header img {
+	width: 70px;
+	height: 60px;
+	margin-right: 2vw;
+}
+
+.links {
+	display: inline-block;
+}
+
+.links a {
+	font-size: 30px;
+	color: #ede;
+	margin: 0 3vw 0 0;
+	position: relative;
+	bottom: 15px;
+}
+
+.menu {
+	font-size: 30px;
+	color: #ede;
+	background-color: #000;
+	border-radius: 15px;
+	position: absolute;
+	right: 2vw;
+	bottom: 15px;
+}
+
+.opciones {
+	position: absolute;
+	right: 0;
+	top: 60px;
+	background-color: #0a4239;
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.opciones li {
+	list-style: none;
+}
+
+.opciones a {
+	text-decoration-line: none;
+	color: #ede;
+	margin: 10px;
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+h2 {
+	margin-left: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin: 10px;
+}
+
+.info div, .tiposBodas div, .exper div {
+	margin: 20px;
+}
+
+.gale img {
+	width: 100%;
+}
+
+.acercaDe {
+	margin-top: 20px;
+	padding: 40px 30px;
+	background-color: #ddd;
+}
+
+.acercaDe h2 {
+	margin-bottom: 15px;
+}
+
+.cotizaciones {
+	margin: 20px;
+}
+
+.cotizaciones p {
+	margin: 20px;
+}
+
+.cotizaciones div {
+	margin-top: 20px;
+}
+
+.pie {
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 280px and max-width: 300px) {
+	header img {
+		margin-right: 0;
+	}
+
+	.links a {
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+
+	header img {
+		margin-right: 8vw;
+	}
+
+	.links a {
+		margin: 0 8vw 0 0;
+	}
+
+	.info, .tiposBodas, .exper {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.info div, .tiposBodas div, .exper div {
+		width: 260px;
+		height: 500px;
+	}
+
+	.info div img, .tiposBodas div img, .exper div img {
+		width: 260px;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.info div:nth-child(8) img {
+		object-position: top;
+	}
+
+	.gale {
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: repeat(10, 200px);
+		grid-gap: 10px;
+	}
+
+	.gale img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.gale img:nth-child(1) {
+		grid-column: 1/3;
+		grid-row: 1/4;
+	}
+
+	.gale img:nth-child(2) {
+		grid-row: 1/2;
+	}
+
+	.gale img:nth-child(6) {
+		grid-column: 2/4;
+		grid-row: 4/6;
+	}
+
+	.gale img:nth-child(8) {
+		grid-column: 1/2;
+		grid-row: 6/8;
+	}
+
+	.gale img:nth-child(12) {
+		grid-column: 2/4;
+		grid-row: 8/10;
+	}
+
+	.gale img:nth-child(14) {
+		grid-column: 3/4;
+		grid-row: 6/7;
+	}
+
+	.gale img:nth-child(9) {
+		grid-column: 2/4;
+		grid-row: 10/11;
+	}
+
+	.gale img:nth-child(11) {
+		grid-column: 2/4;
+	}
+
+	.gale img:nth-child(15) {
+		grid-row: 9/11;
+	}
+
+	.acercaDe div {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin-right: 5px;
+	}
+
+	#cotizar {
+		display: inline-block;
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.info div, .tiposBodas div, .exper div {
+		width: 300px;
+		height: 510px;
+		margin: auto;
+	}
+
+	.info div img, .tiposBodas div img, .exper div img {
+		width: 300px;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	#cotizar {
+		width: 50%;
+	}
+
+	.acercaDe div {
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.info div, .tiposBodas div, .exper div {
+		width: 240px;
+		height: 540px;
+		margin: auto;
+	}
+
+	.info div img, .tiposBodas div img, .exper div img {
+		width: 240px;
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.paquetes {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.paquetes div {
+		width: 480px;
+		margin: auto;
+	}
+
+	.paquetes div img {
+		width: 500px;
+		height: 400px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.info div, .tiposBodas div, .exper div {
+		width: 300px;
+		height: 600px;
+	}
+
+	.info div img, .tiposBodas div img, .exper div img {
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	#cotizar {
+		width: 70%;
+	}
+}

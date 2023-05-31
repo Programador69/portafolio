@@ -1,0 +1,40 @@
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+div{
+	width: 200px;
+	margin: 100px;
+	display: flex;
+}
+
+i{
+	font-size: 100px;
+	cursor: pointer;
+}
+
+.insta {
+	background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+	border-radius: 30%;
+	position: relative;
+	color: #fff;
+}
+
+.face {
+	background: #007CF8;
+	border-radius: 30%;
+	color: #fff;
+}
+
+.twit {
+	background: #1d9bf0;
+	border-radius: 30%;
+	color: #fff;
+}
+
+.whats {
+	background:#03CD1F;
+	border-radius: 30%;
+	color: #fff;
+}

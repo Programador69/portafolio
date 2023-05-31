@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif;
+	background-color: #efe;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.entrada {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.entrada p {
+	margin: 10px 15px;
+}
+
+.entrada input {
+	height: 30px;
+}
+
+.operadores {
+	display: grid;
+	grid-template-columns: repeat(2, 150px);
+	grid-template-rows: repeat(2, 150px) 75px;
+	align-items: center;
+	justify-items: center;
+	margin-top: 30px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.operadores button {
+	background-color: #eef;
+}
+
+.operadores button {
+	font-size: 50px;
+	width: 150px;
+	height: 150px;
+}
+
+.operadores .concatenar {
+	font-size: 30px;
+	width: 300px;
+	height: 75px;
+	justify-self: baseline;
+}
+
+.resultado {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
