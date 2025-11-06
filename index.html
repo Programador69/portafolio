@@ -1,82 +1,249 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
-	<link rel="icon" type="image/png" href="logo.png">
-	<meta name="description" content="Incluye proyectos de diferentes niveles (principiante, intermedio y avanzado); metodología de trabajo, formas de contacto y tipo de pagos.">
-	<title>Desarollador de Software (Portafolio)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Manolo Ortiz</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <div class="bg-animation"></div>
+    
+    <nav>
+        <div class="logo">&lt;Manolo Ortiz/&gt;</div>
+        <div class="nav-links">
+            <a href="#home">Inicio</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#skills">Tecnologias</a>
+            <a href="#contact">Contacto</a>
+        </div>
+    </nav>
 
-	<header>
-		<h1>Mi Portafolio</h1>
-	</header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Desarrollador Full Stack</h1>
+            <p>Creando Experiencias Digitales a Través del Código</p>
+            <a href="#contact" class="cta-button">¡Trabajemos Juntos!</a>
+        </div>
+    </section>
 
-	<nav class="nav">
-		<ul>
-			<li class="contacto"><a href="#contacto">Contacto</a></li>
-			<li class="inicio">Inicio</li>
-		</ul>
-	</nav>
+    <section id="projects" class="projects">
+        <h2 class="section-title fade-in">Ultimos Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-image">🚀</div>
+                <div class="project-content">
+                    <a href="https://formulario-vacantes.vercel.app/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>Vacantes de Hotel</h3>
+                        <p>Una app capaz de registrar las vacantes disponibles y le permite al interesado postularse subiendo sus datos personales y su CV por medio de PDF; el sistema le envía un correo al administrador de RHH para que pueda ver a los interesados.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Next JS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Resend</span>
+                            <span class="tech-tag">Cloudinary</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-	<main>
-		<section class="presentacion">
-			<figure>
-				<img src="img.png" alt="Imagen ilustrativa de un Desarrollador de Software">
-			</figure>
-			<p>Soy un desarrollador de software, especialmente de páginas web, pero igual manejo otros lenguajes y herramientas (Python, SQL, NoSQL, CSS, JS, HTML, ReactJs, ReactNative, TypeScript). Siempre utilizo las mejores metodologías de trabajo, así como un código limpio, eficaz, sencillo y siempre actualizado; trato de realizar el mejor trabajo en cuanto a desempeño y seguridad del sistema, puedo manejar diferentes formas de pago y también hacer cotizaciones para cualquier proyecto.</p>
-		</section>
+            <div class="project-card fade-in">
+                <div class="project-image">💬</div>
+                <div class="project-content">
+                    <a href="https://app-instantes-hux.vercel.app/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>Ofrecer Servicios</h3>
+                        <p>Página web creada para organizadores de eventos en la que muestran sus servicios, imágenes, mencionan acerca de su equipo de trabajo y pueden ver comentarios de otros usuarios.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Next JS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-		<h2>Algunos proyectos realizados por mí</h2>
-		<section class="basicos">
-			<p>Proyectos basicos</p>
-			<a href="tiendaRopa/index.html" target="_BLANK" rel="no-referrer">Tienda de ropa</a>
-			<a href="TituloPersonalizado/index.html" target="_BLANK" rel="no-referrer">Titulo Personalizado</a>
-			<a href="bodas/index.html" target="_BLANK" rel="no-referrer">Página para bodas</a>
-			<a href="tiendaRopa2/index.html" target="_BLANK" rel="no-referrer">Tienda de ropa 2</a>
-			<a href="problemasCursoJsDalto/problema1/index.html" target="_BLANK" rel="no-referrer">Heladeria</a>
-			<a href="problemasCursoJsDalto/problema3/index.html" target="_BLANK" rel="no-referrer">Asistencias</a>
-			<a href="problemasCursoJsDalto/problema7/index.html" target="_BLANK" rel="no-referrer">Calculadora</a>
-		</section>
+            <div class="project-card fade-in">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <a href="https://app-bodas-hux.vercel.app/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>Formulario de Bodas</h3>
+                        <p>Diseñado para dar una cotización final dependiendo los resultados de las preguntas; los resultados se almacenan en la BD para ser mostrados al administrador en un enlace privado y este se pueda contactar con los interesados y/o analice que es lo que los usuarios andan buscando.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Next JS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Meta Pixel</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-		<section class="intermedios">
-			<p>Proyectos intemedios</p>
-			<a href="calculadora/index.html" target="_BLANK" rel="no-referrer">Calculadora</a>
-			<a href="competenciasDeportivas/index.html" target="_BLANK" rel="no-referrer">Competencias Deportivas</a>
-			<a href="contadorJuego/index.html" target="_BLANK" rel="no-referrer">Incremento-juego</a>
-			<a href="FigurasGeometricas/index.html" target="_BLANK" rel="no-referrer">Figuras geometricas</a>
-			<a href="IMC/index.html" target="_BLANK" rel="no-referrer">IMC</a>
-			<a href="Logotipos-RedesSociales/index.html" target="_BLANK" rel="no-referrer">Logotipos</a>
-			<a href="texto_a_Voz/index.html" target="_BLANK" rel="no-referrer">Texto a Voz</a>
-			<a href="problemasCursoJsDalto/problema8/index.html" target="_BLANK" rel="no-referrer">Materias y alumnos</a>
-			<a href="problemasCursoJsDalto/problema12/index.html" target="_BLANK" rel="no-referrer">Llaves</a>
-		</section>
+            <div class="project-card fade-in">
+                <div class="project-image">🎨</div>
+                <div class="project-content">
+                    <a href="https://www.detalladolacuadra.com/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>Ofrecer Servicios</h3>
+                        <p>Página web creada para un detallado de vehículos en el que se muestran sus servicios, precios; se agregó una sección para explicar qué es un detallado y contiene imágenes de antes y después.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-		<section class="avanzados">
-			<p>Proyectos avanzados</p>
-			<a href="tecladoAntiguoTelefonos/index.html" target="_BLANK" rel="no-referrer">Teclado alfanumerico</a>
-			<a href="https://programador69.github.io/listaDeCompras/" target="_BLANK" rel="no-referrer">Lista de compras</a>
-			<a href="https://programador69.github.io/listaDeComprasV2/" target="_BLANK" rel="no-referrer">Lista de compras 2.0</a>
-			<a href="problemasCursoJsDalto/problema15/index.html" target="_BLANK" rel="no-referrer">Formulario</a>
-			<a href="problemasCursoJsDalto/problema16/index.html" target="_BLANK" rel="no-referrer">Asignacion de calificaciones</a>
-			<a href="cambioDeTema/index.html" target="_BLANK" rel="no-referrer">Cambio de tema</a>
-			<a href="https://programador69.github.io/puntosDeTarjetas/" target="_BLANK" rel="no-referrer">Puntos en la tarjeta</a>
-		</section>
-	</main>
+            <div class="project-card fade-in">
+                <div class="project-image">🔒</div>
+                <div class="project-content">
+                    <a href="https://app-eventos-zeta.vercel.app/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>App Eventos</h3>
+                        <p>Creada para organizar eventos desde 0. Crea un evento y añade tu lista de invitados desde un archivo de Excel para que automáticamente el sistema envíe un correo electrónico detallando el evento al que fue invitada la persona con un código QR de acceso. En la misma app puedes usar la herramienta de Lector QR para saber si una persona tiene acceso o no al evento, cuántos invitados, la mesa, etc. Puedes modificar el evento, eliminarlo, checar espacios disponibles, etc.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Next JS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Cloudianry</span>
+                            <span class="tech-tag">SendGrid</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-	<footer class="pie" id="contacto">
-		<h3>Animate, ¿qué esperas para contactarme?</h3>
-		<h4>Contacto:</h4>
-		<a href="mailto:manolo1025@protonmail.com" target="_BLANK" rel="no-referrer">manolo1025@protonmail.com</a>
-		<a href="https://instagram.com/tecnologia_hux" target="_BLANK" rel="no-referrer">Instagram</a>
-	</footer>
+            <div class="project-card fade-in">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <a href="https://programador69.github.io/listaDeComprasV2/" target="_blank" rel="noreferrer" style="text-decoration: none;">
+                        <h3>Lista de Pendientes</h3>
+                        <p>Agrega pendientes a la lista y táchalos cuando acabes, elimínalos o edítalos. Todo se almacena dentro del navegador y es muy útil al momento de hacer las compras. Puedes usar la V2, en la que puedes agregar el precio y al final te da una suma de lo que vas a gastar o gastaste.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML 5</span>
+                            <span class="tech-tag">CSS 3</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script type="text/javascript" src="codigo.js"></script>
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="section-title fade-in">Tecnologías Usadas</h2>
+            <div class="skills-grid">
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/react.png" >
+                        </figure>
+                    </div>
+                    <p>React JS</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/node.png" >
+                        </figure>
+                    </div>
+                    <p>Node JS</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/python.png" >
+                        </figure>
+                    </div>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/mongo.png" >
+                        </figure>
+                    </div>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/typescript.png" >
+                        </figure>
+                    </div>
+                    <p>TypeScript</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/react.png" >
+                        </figure>
+                    </div>
+                    <p>React Native</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/html.png" >
+                        </figure>
+                    </div>
+                    <p>HTML 5</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/css.svg" >
+                        </figure>
+                    </div>
+                    <p>CSS 3</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/js.png" >
+                        </figure>
+                    </div>
+                    <p>JS</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/sql.png" >
+                        </figure>
+                    </div>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/angular.webp" >
+                        </figure>
+                    </div>
+                    <p>Angular</p>
+                </div>
+                <div class="skill-item fade-in">
+                    <div class="skill-icon">
+                        <figure >
+                            <img src="./img/nextjs.png" >
+                        </figure>
+                    </div>
+                    <p>Next JS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content fade-in">
+            <h2 class="section-title">Construyamos Apps Increíbles</h2>
+            <p>¿Algún proyecto en mente? Discutamos cómo podemos trabajar juntos.</p>
+            <a href="mailto:manolo1025@protonmail.com" href="_BLANK" rel="noreferrer" class="contact-email">manolo1025@protonmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <div style="text-align: center; padding: 20px; color: #555; font-size: 14px;">
+            Página creada con ayuda de Claude AI.
+        </div>
+    </footer>
+
+    <script src="codigo.js" type="text/javascript" defer></script>
 </body>
 </html>
