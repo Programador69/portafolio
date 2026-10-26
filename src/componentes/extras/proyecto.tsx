@@ -12,7 +12,7 @@ export function Proyecto ({titulo, fecha, descripcion, tecnologias, url}: Proyec
     return (
         <article className={estilos.articleProyecto} >
             {
-                url.startsWith("https") ? <div className={estilos.iframeWrapper} ><iframe className={estilos.iframe} src={url} width={300} height={300} ></iframe></div> : <img className={estilos.img} src={url} width={300} height={300} />
+                url.startsWith("https") ? <div className={estilos.iframeWrapper} ><iframe className={estilos.iframe} src={url} width={300} height={300} ></iframe></div> : <img className={estilos.img} src={`${import.meta.env.BASE_URL}${url}`} width={300} height={300} alt="Foto de referencia de un Proyecto" />
             }
             <span className={estilos.fecha} >{fecha}</span>
             <h3 className={estilos.titulo} >{titulo}</h3>
