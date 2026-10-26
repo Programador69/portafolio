@@ -22,7 +22,7 @@ export function Diferenciador() {
             </div>
 
             <div className={estilos.divImg}>
-                <img src="paginaDiferenciador.jpg" alt="Imagen de un escritorio de un Desarrollador de Software" />
+                <img src={`${import.meta.env.BASE_URL}paginaDiferenciador.jpg`} alt="Imagen de un escritorio de un Desarrollador de Software" />
             </div>
         </div>
     )
