@@ -1,0 +1,16 @@
+.listaTrabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 750px) {
+    .listaTrabajos {
+        margin-top: 50px;
+    }
+}

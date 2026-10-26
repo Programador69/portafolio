@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "proyecto": "Primera pagina",
+    "periodo": "2023 – 2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Se le creo una página web responsiva para que el cliente pudiera ver la página en excelentes tamaños según su dispositivo. Además se conecto a sus redes sociales para que pudieran saber donde entrar para ver precios, imágenes y demás. ",
+    "url": "autoHotelElRomance.webp"
+  },
+  {
+    "id": 2,
+    "proyecto": "Bodas Huatulco",
+    "periodo": "2025 – actual",
+    "tecnologiasPrincipales": ["NextJS", "i18N"],
+    "descripcion": "Se desarrollo un formulario para dar una cotización final dependiendo las respuestas de los usuarios. La pagina detecta si estas en un navegador con idioma principal español, si es diferente en automático pone el idioma ingles",
+    "url": "https://app-bodas-hux.vercel.app/"
+  },
+  {
+    "id": 3,
+    "proyecto": "Inmobiliarias",
+    "periodo": "2025 - actual",
+    "tecnologiasPrincipales": ["Docker", "VPS", "Hosting", "Dominios","Express"],
+    "descripcion": "Se subieron diferentes inmobiliarias del mismo grupo en VPS y otras en Hosting. En algunas se implementó el backend y la conexión con el frontend.",
+    "url": "https://inmobiliariaoaxaca.com"
+  },
+  {
+    "id": 4,
+    "proyecto": "Veterinaria",
+    "periodo": "2026 - actual",
+    "tecnologiasPrincipales": ["HTML", "CSS"],
+    "descripcion": "Se desarrollo una pagina web en la que se mostro la experiencia del MVZ, una galería de imágenes en las que se mostraba su trabajo realizado durante su trayectoria y una sección del origen del nombre de la veterinaria.",
+    "url": "https://elgrandanes.online"
+  },
+  {
+    "id": 5,
+    "proyecto": "Instantes Hux",
+    "periodo": "2025 - actual",
+    "tecnologiasPrincipales": ["NextJS"],
+    "descripcion": "Se creo una página web responsive para poder dar a conocer sus eventos, una galeria tipo carrusel e incluso un apartado para dejar comentarios. La galeria devuelve las fotos en orden aleatorio.",
+    "url": "https://app-instantes-hux.vercel.app/"
+  },
+  {
+    "id": 6,
+    "proyecto": "App Hotel Castillo",
+    "periodo": "2025 - actual",
+    "tecnologiasPrincipales": ["NextJS"],
+    "descripcion": "Se creo una aplicacion (liberacion de PP.) para anunciar vacantes y los interesados pudieran subir sus datos y su CV. Los resultados llegan al correo de RR.HH y ahi puede revisar los perfiles de cada uno.",
+    "url": "https://formulario-vacantes.vercel.app"
+  },
+  {
+    "id": 7,
+    "proyecto": "Tienda en línea",
+    "periodo": "2025 - actual",
+    "tecnologiasPrincipales": ["NextJS"],
+    "descripcion": "Se desarrollo una tienda en linea para poder ofrecer un catalogo y medios de contacto entre el proovedor y los clientes. Los admins tienen las opciones CRUD para los articulos.",
+    "url": "https://app-naroa.vercel.app"
+  },
+  {
+    "id": 8,
+    "proyecto": "App eventos",
+    "periodo": "2025 - actual",
+    "tecnologiasPrincipales": ["NextJS"],
+    "descripcion": "Aplicación web completa en la que solo se puede acceder iniciando sesion. Es un manejador de eventos y control de invitados, incluye generador y lector de QR, envio automatico de invitaciones, etc.",
+    "url": "https://app-eventos-zeta.vercel.app"
+  },
+  {
+    "id": 9,
+    "proyecto": "Menú Digital",
+    "periodo": "2026",
+    "tecnologiasPrincipales": ["ReactJS"],
+    "descripcion": "El proyecto se encarga de tener un menú adaptado a cualquier tipo de restaurante en el que el cliente pueda solicitar su orden desde su dispositivo y la orden sea entregada en cocina directamente.",
+    "url": "menuDigital.png"
+  },
+  {
+    "id": 10,
+    "proyecto": "Inventario tienda",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["NodeJS", "HTML", "CSS", "JS", "NoSQL"],
+    "descripcion": "Se realizó el inventario de una tienda en el que usamos NoSQL porque los datos de los productos no siempre eran los mismos y/o a veces se tenian que meter los datos de manera mas flexible.",
+    "url": "inventarioTienda.jpeg"
+  },
+  {
+    "id": 11,
+    "proyecto": "Página Detailing",
+    "periodo": "2024-2026",
+    "tecnologiasPrincipales": ["Astro"],
+    "descripcion": "Página creada para informar acerca del Car Detailling y de los servicios que ofrecia un negocio, inlcuyendo imagenes, precios, tarifas, horarios, etc. Se uso Astro como entorno de prueba.",
+    "url": "https://web.archive.org/web/20251213154407/https://www.detalladolacuadra.com/"
+  },
+  {
+    "id": 12,
+    "proyecto": "Calculadora",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Proyecto sencillo para practicar JavScript en el que se creo una calculadora capaz de realziar operaciones matematicas y ser usada en entornos escolares como secundaria o preparatoria.",
+    "url": "calculadora.png"
+  },
+  {
+    "id": 13,
+    "proyecto": "Cambio de tema",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Se realizo una página web con cambios de colores (modo claro y modo oscuro) con tematica de Batman / Superman y la animacion al cambiar los colores.",
+    "url": "cambioTema.png"
+  },
+  {
+    "id": 14,
+    "proyecto": "Chat tiempo real",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Se uso websockets para poder usarlo como intermediario para poder enviar y recibir mensajes, ademas de una clave para poder distinguir a los usuarios y manejar el mensaje correctamente.",
+    "url": "chatTiempoReal.png"
+  },
+  {
+    "id": 15,
+    "proyecto": "Contador fin de año",
+    "periodo": "2025",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Se realizo como propuesta para eventos y/o negocios que celebraban ese dia con un evento. El contador tenia efectos especiales al llegar a 0 y una animacion infinita de movimiento.",
+    "url": "contadorFinDeAno.png"
+  },
+  {
+    "id": 16,
+    "proyecto": "Calculadora IMC",
+    "periodo": "2025",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "La aplicación recopila tus datos de peso y altura, despues se usa la formula y devuelve el resultado acopañado de una imagen en la que podras medir tus valores.",
+    "url": "imc.png"
+  },
+  {
+    "id": 17,
+    "proyecto": "Lista de compras",
+    "periodo": "2025",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Aplicación web que guarda la información dentro del propio navegador del usuario y la muestra en una lista con la que se pueden hacer cuentas, lista de compras, etc.",
+    "url": "https://programador69.github.io/listaDeComprasV2/"
+  },
+  {
+    "id": 18,
+    "proyecto": "Pregunta cita “trampa”",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Pregunta incomoda para conseguir una cita (incomoda para la persona que diga que no). No dejar decir que no y cuando el usuario diga que si, lanza un 'Sabia que dirias que si'.",
+    "url": "preguntaCita.png"
+  },
+  {
+    "id": 19,
+    "proyecto": "Puntos tarjetas",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Programa eficaz para mantener un control de tus puntos y/o recompensas de tus tarjetas, guarda los datos en tu propio navegador por lo que no desconfies que un 3ro tenga tus datos.",
+    "url": "puntosTarjetas.png"
+  },
+  {
+    "id": 20,
+    "proyecto": "Teclado antiguo",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "El antiguo teclado que tenias que picarle 1 vez para una letra, 3 para otra letra, etc. Ideal para mostrar como funcionaba anteriormente el teclado en los moviles.",
+    "url": "telefonoAntiguo.png"
+  },
+  {
+    "id": 21,
+    "proyecto": "Texto a Voz",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS"],
+    "descripcion": "Usando la API nativa del navegador podemos recrear que al escribir un texto, la página lo diga en voz alta creando un efecto de robot parlante y ayuda a divertirse con niños.",
+    "url": "textoVoz.png"
+  },
+  {
+    "id": 22,
+    "proyecto": "Cámaras de seguridad",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["Python"],
+    "descripcion": "Se creo un servidor privado en el que se pueden conectar telefonos o camaras compatibles para poder mandar la imagen en vivo al servidor y en este poder visualizarlo.",
+    "url": "camarasSeguridad.jpg"
+  },
+  {
+    "id": 23,
+    "proyecto": "Juego ahorcado",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["Python", "SQLite"],
+    "descripcion": "Proyecto para poder pasar el tiempo con amigos y/o familia. Tienes que rellenar una palabra y tienes ciertos intentos porque si fallas vas creando a un personaje hasta que acaba 'ahorcado'",
+    "url": "ahorcado.png"
+  },
+  {
+    "id": 24,
+    "proyecto": "Videollamadas",
+    "periodo": "2026",
+    "tecnologiasPrincipales": ["HTML", "CSS", "JS", "Python"],
+    "descripcion": "Usando Websockets, Stun Server y FastApi logramos enlazar 2 o mas dispositivos para poder entrar en una videollamada en la que podremos controlar el microfono y el video.",
+    "url": "videollamadas.png"
+  },
+  {
+    "id": 25,
+    "proyecto": "Asistente virtual",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["Python"],
+    "descripcion": "Conexion con una IA y con unas librerias que pueden reconocer la voz y responder con voz para crear un asistente personal capaz de escucharte en todo momento y resolver tus dudas.",
+    "url": "asistenteVirtual.jpg"
+  },
+  {
+    "id": 26,
+    "proyecto": "Creador de contraseñas",
+    "periodo": "2022",
+    "tecnologiasPrincipales": ["Python"],
+    "descripcion": "Contraseñas aleatorias usando sumbolos, numeros, letras mayuculas y minusculas. Capaz de configurarlo para tener cierta cantidad de digitos.",
+    "url": "generadorContrasenas.jpg"
+  },
+  {
+    "id": 27,
+    "proyecto": "Convertidor a MP3",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["Python"],
+    "descripcion": "Usando algunas librerias conseguimos que descargue los bits de los videos y los almacene en un archivo mp3 con el nombre especificado.",
+    "url": "convertidorMp3.jpg"
+  },
+  {
+    "id": 28,
+    "proyecto": "Resultados de Futbol",
+    "periodo": "2024",
+    "tecnologiasPrincipales": ["NodeJS"],
+    "descripcion": "Usando la tecnica web scrapping logramos sacar los datos de la liga MX y mostrarlos en consola con colores para diferenciar a los que pasan a liguilla.",
+    "url": "resultadosFutbol.png"
+  }
+]
